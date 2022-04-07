@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-# Created by: Mr. Coxall
-# Created on: Sep 2020
+# Created by: Huzaifa Khalid
+# Created on: April 2022
 # this function checks if the year inserted by user
 # is a leap year
 
