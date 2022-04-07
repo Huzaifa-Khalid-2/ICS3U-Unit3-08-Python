@@ -27,11 +27,13 @@ def main():
                 print("It is a leap year.")
                 print("")
         else:
-            print("It is a common year.")
+            print("It is a not a leap year.")
     except Exception:
         print("Really? (-_-)ゞ゛pick a year pls.")
-    print("\nDone.")
+    finally:
+        print("\nDone.")
 
 
 if __name__ == "__main__":
     main()
+
