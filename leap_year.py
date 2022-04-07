@@ -20,18 +20,16 @@ def main():
         if user_input_number % 4 == 0:
             if user_input_number % 100 == 0:
                 if user_input_number % 400 == 0:
-                    print("It is a leap year".format(user_input_string))
+                    print("It is a leap year")
                 else:
-                    print("It is not a leap year".format(user_input_string))
+                    print("It is not a leap year")
             else:
-                print("It is a leap year.".format(user_input_string))
+                print("It is a leap year.")
                 print("")
         else:
-            print("It is a common year.".format(user_input_string))
-            print("")
-
+            print("It is a common year.")
     except Exception:
-        print("Really? (-_-)ゞ゛pick a year pls.".format(user_input_string))
+        print("Really? (-_-)ゞ゛pick a year pls.")
     print("\nDone.")
 
 
